@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Webgl.loader.js";
+      var loaderUrl = buildUrl + "/finalbuild.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Webgl.data.unityweb",
-        frameworkUrl: buildUrl + "/Webgl.framework.js.unityweb",
-        codeUrl: buildUrl + "/Webgl.wasm.unityweb",
+        dataUrl: buildUrl + "/finalbuild.data",
+        frameworkUrl: buildUrl + "/finalbuild.framework.js",
+        codeUrl: buildUrl + "/finalbuild.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Techindraa",
         productName: "Toto_Shooting_Range",
@@ -107,7 +107,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/Webgl.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/finalbuild.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
